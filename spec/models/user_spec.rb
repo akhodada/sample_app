@@ -100,7 +100,7 @@ describe User do
         @user.has_password?(@attr[:password]).should be_true
       end
       it "should be false if the passwords don't match" do
-        @user.has_passowrd?("invalid").should be_false
+        @user.has_password?("invalid").should be_false
       end
     end
     describe "authenticate method" do
@@ -113,7 +113,7 @@ describe User do
         nonexistance_user.should be_nil
       end
       it "should return the user on email/password match" do
-        matching_user = User.authenticate(@attr[:email, @attr[:password]])
+        matching_user = User.authenticate(@attr[:email], @attr[:password])
         matching_user.should == @user
       end
     end
