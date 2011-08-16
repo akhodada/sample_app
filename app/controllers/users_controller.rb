@@ -14,7 +14,8 @@ class UsersController < ApplicationController
   def create
     @user = User.new(params[:user])
     if @user.save
-    
+      flash[:success] = "Registration Succeeded!"
+      redirect_to user_path(@user)    
     else
       @title = "Sign up"
       render 'new'
