@@ -1,0 +1,422 @@
+FFFFFFFFFFFFFFFFFFFFFFF..FFF...F...................FFFFFFFFFF
+
+Failures:
+
+  1) PagesController GET 'home' should be successful
+     Failure/Error: get 'home'
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/pages_controller_spec.rb:11:in `block (3 levels) in <top (required)>'
+
+  2) PagesController GET 'home' should have the right title
+     Failure/Error: get 'home'
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/pages_controller_spec.rb:16:in `block (3 levels) in <top (required)>'
+
+  3) PagesController GET 'contact' should be successful
+     Failure/Error: get 'contact'
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/pages_controller_spec.rb:24:in `block (3 levels) in <top (required)>'
+
+  4) PagesController GET 'contact' should have the right title
+     Failure/Error: get 'contact'
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/pages_controller_spec.rb:29:in `block (3 levels) in <top (required)>'
+
+  5) PagesController GET 'about' should be successful
+     Failure/Error: get 'about'
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/pages_controller_spec.rb:38:in `block (3 levels) in <top (required)>'
+
+  6) PagesController GET 'about' should have the right title
+     Failure/Error: get 'about'
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/pages_controller_spec.rb:43:in `block (3 levels) in <top (required)>'
+
+  7) PagesController GET 'help' should be successful
+     Failure/Error: get 'help'
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/pages_controller_spec.rb:52:in `block (3 levels) in <top (required)>'
+
+  8) PagesController GET 'help' should have the right title
+     Failure/Error: get 'help'
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/pages_controller_spec.rb:56:in `block (3 levels) in <top (required)>'
+
+  9) SessionsController GET 'new' should be successful
+     Failure/Error: get :new
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/sessions_controller_spec.rb:7:in `block (3 levels) in <top (required)>'
+
+  10) SessionsController GET 'new' should have the right title
+     Failure/Error: get :new
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/sessions_controller_spec.rb:12:in `block (3 levels) in <top (required)>'
+
+  11) SessionsController POST 'create' with valid email/password should sign the user in
+     Failure/Error: post :create, :session => @attr
+     ActionView::MissingTemplate:
+       Missing template sessions/create with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/Alireza/sample_app/app/views"
+     # ./spec/controllers/sessions_controller_spec.rb:24:in `block (4 levels) in <top (required)>'
+
+  12) SessionsController POST 'create' with valid email/password should redirect to the user show page
+     Failure/Error: post :create, :session => @attr
+     ActionView::MissingTemplate:
+       Missing template sessions/create with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/Alireza/sample_app/app/views"
+     # ./spec/controllers/sessions_controller_spec.rb:29:in `block (4 levels) in <top (required)>'
+
+  13) SessionsController POST 'create' invalid signin should re-render the new page
+     Failure/Error: post :create, :session => @attr
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./app/controllers/sessions_controller.rb:13:in `create'
+     # ./spec/controllers/sessions_controller_spec.rb:38:in `block (4 levels) in <top (required)>'
+
+  14) SessionsController POST 'create' invalid signin should have the right title
+     Failure/Error: post :create, :session => @attr
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./app/controllers/sessions_controller.rb:13:in `create'
+     # ./spec/controllers/sessions_controller_spec.rb:42:in `block (4 levels) in <top (required)>'
+
+  15) SessionsController POST 'create' invalid signin should have a flash.now message
+     Failure/Error: post :create, :session => @attr
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./app/controllers/sessions_controller.rb:13:in `create'
+     # ./spec/controllers/sessions_controller_spec.rb:46:in `block (4 levels) in <top (required)>'
+
+  16) SessionsController DELETE 'destroy' should sign a user out
+     Failure/Error: test_sign_in(Factory(:user))
+     NoMethodError:
+       undefined method `current_user=' for #<SessionsController:0x10d6fca8>
+     # ./app/helpers/sessions_helper.rb:5:in `sign_in'
+     # ./spec/controllers/sessions_controller_spec.rb:53:in `block (3 levels) in <top (required)>'
+
+  17) UsersController Get 'show' should be successful
+     Failure/Error: get :show, :id => @user
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/users_controller_spec.rb:11:in `block (3 levels) in <top (required)>'
+
+  18) UsersController Get 'show' should find the right user
+     Failure/Error: get :show, :id => @user
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/users_controller_spec.rb:15:in `block (3 levels) in <top (required)>'
+
+  19) UsersController Get 'show' should have the right title
+     Failure/Error: get :show, :id => @user
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/users_controller_spec.rb:19:in `block (3 levels) in <top (required)>'
+
+  20) UsersController Get 'show' should include the user's name
+     Failure/Error: get :show, :id => @user
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/users_controller_spec.rb:23:in `block (3 levels) in <top (required)>'
+
+  21) UsersController Get 'show' should have profile image
+     Failure/Error: get :show, :id => @user
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/users_controller_spec.rb:27:in `block (3 levels) in <top (required)>'
+
+  22) UsersController GET 'new' should be successful
+     Failure/Error: get 'new'
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/users_controller_spec.rb:34:in `block (3 levels) in <top (required)>'
+
+  23) UsersController GET 'new' should have the right title
+     Failure/Error: get 'new'
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./spec/controllers/users_controller_spec.rb:39:in `block (3 levels) in <top (required)>'
+
+  24) UsersController POST 'create' failure should not create a user
+     Failure/Error: post :create, :user =>@attr
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./app/controllers/users_controller.rb:33:in `create'
+     # ./spec/controllers/users_controller_spec.rb:66:in `block (5 levels) in <top (required)>'
+     # ./spec/controllers/users_controller_spec.rb:65:in `block (4 levels) in <top (required)>'
+
+  25) UsersController POST 'create' failure should have the right title
+     Failure/Error: post :create, :user => @attr
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./app/controllers/users_controller.rb:33:in `create'
+     # ./spec/controllers/users_controller_spec.rb:70:in `block (4 levels) in <top (required)>'
+
+  26) UsersController POST 'create' failure should render the 'new' page
+     Failure/Error: post :create, :user => @attr
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # ./app/controllers/users_controller.rb:33:in `create'
+     # ./spec/controllers/users_controller_spec.rb:74:in `block (4 levels) in <top (required)>'
+
+  27) UsersController POST 'create' failure success should sign the user in
+     Failure/Error: controller.should be_signed_in
+     ArgumentError:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./spec/controllers/users_controller_spec.rb:96:in `block (5 levels) in <top (required)>'
+
+  28) LayoutLinks should have a home page at '/'
+     Failure/Error: get '/'
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # <internal:prelude>:10:in `synchronize'
+     # ./spec/requests/layout_links_spec.rb:5:in `block (2 levels) in <top (required)>'
+
+  29) LayoutLinks should have a contact page at '/contact'
+     Failure/Error: get '/contact'
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # <internal:prelude>:10:in `synchronize'
+     # ./spec/requests/layout_links_spec.rb:9:in `block (2 levels) in <top (required)>'
+
+  30) LayoutLinks should have a about page at '/about'
+     Failure/Error: get '/about'
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # <internal:prelude>:10:in `synchronize'
+     # ./spec/requests/layout_links_spec.rb:13:in `block (2 levels) in <top (required)>'
+
+  31) LayoutLinks should have a Help page at '/help'
+     Failure/Error: get '/help'
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # <internal:prelude>:10:in `synchronize'
+     # ./spec/requests/layout_links_spec.rb:17:in `block (2 levels) in <top (required)>'
+
+  32) LayoutLinks should have a signup page at '/signup'
+     Failure/Error: get '/signup'
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # <internal:prelude>:10:in `synchronize'
+     # ./spec/requests/layout_links_spec.rb:21:in `block (2 levels) in <top (required)>'
+
+  33) LayoutLinks when not signed in should have a signin link
+     Failure/Error: visit root_path
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # <internal:prelude>:10:in `synchronize'
+     # ./spec/requests/layout_links_spec.rb:26:in `block (3 levels) in <top (required)>'
+
+  34) LayoutLinks when signed in should have a signout link
+     Failure/Error: visit signin_path
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # <internal:prelude>:10:in `synchronize'
+     # ./spec/requests/layout_links_spec.rb:35:in `block (3 levels) in <top (required)>'
+
+  35) LayoutLinks when signed in should have a profile link
+     Failure/Error: visit signin_path
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # <internal:prelude>:10:in `synchronize'
+     # ./spec/requests/layout_links_spec.rb:35:in `block (3 levels) in <top (required)>'
+
+  36) Users signup failure should not make a new user
+     Failure/Error: visit signup_path
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # <internal:prelude>:10:in `synchronize'
+     # ./spec/requests/users_spec.rb:9:in `block (5 levels) in <top (required)>'
+     # ./spec/requests/users_spec.rb:8:in `block (4 levels) in <top (required)>'
+
+  37) Users signup success should create a user
+     Failure/Error: visit signup_path
+     ActionView::Template::Error:
+       wrong number of arguments (0 for 1)
+     # ./app/helpers/sessions_helper.rb:17:in `current_user'
+     # ./app/helpers/sessions_helper.rb:9:in `signed_in?'
+     # ./app/views/layouts/_header.html.erb:6:in `_app_views_layouts__header_html_erb___423747336_150340400__90600264'
+     # ./app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___370547107_150741670_715208994'
+     # <internal:prelude>:10:in `synchronize'
+     # ./spec/requests/users_spec.rb:24:in `block (5 levels) in <top (required)>'
+     # ./spec/requests/users_spec.rb:23:in `block (4 levels) in <top (required)>'
+
+Finished in 8.11 seconds
+61 examples, 37 failures
+
+Failed examples:
+
+rspec ./spec/controllers/pages_controller_spec.rb:10 # PagesController GET 'home' should be successful
+rspec ./spec/controllers/pages_controller_spec.rb:15 # PagesController GET 'home' should have the right title
+rspec ./spec/controllers/pages_controller_spec.rb:23 # PagesController GET 'contact' should be successful
+rspec ./spec/controllers/pages_controller_spec.rb:28 # PagesController GET 'contact' should have the right title
+rspec ./spec/controllers/pages_controller_spec.rb:37 # PagesController GET 'about' should be successful
+rspec ./spec/controllers/pages_controller_spec.rb:42 # PagesController GET 'about' should have the right title
+rspec ./spec/controllers/pages_controller_spec.rb:51 # PagesController GET 'help' should be successful
+rspec ./spec/controllers/pages_controller_spec.rb:55 # PagesController GET 'help' should have the right title
+rspec ./spec/controllers/sessions_controller_spec.rb:6 # SessionsController GET 'new' should be successful
+rspec ./spec/controllers/sessions_controller_spec.rb:11 # SessionsController GET 'new' should have the right title
+rspec ./spec/controllers/sessions_controller_spec.rb:23 # SessionsController POST 'create' with valid email/password should sign the user in
+rspec ./spec/controllers/sessions_controller_spec.rb:28 # SessionsController POST 'create' with valid email/password should redirect to the user show page
+rspec ./spec/controllers/sessions_controller_spec.rb:37 # SessionsController POST 'create' invalid signin should re-render the new page
+rspec ./spec/controllers/sessions_controller_spec.rb:41 # SessionsController POST 'create' invalid signin should have the right title
+rspec ./spec/controllers/sessions_controller_spec.rb:45 # SessionsController POST 'create' invalid signin should have a flash.now message
+rspec ./spec/controllers/sessions_controller_spec.rb:52 # SessionsController DELETE 'destroy' should sign a user out
+rspec ./spec/controllers/users_controller_spec.rb:10 # UsersController Get 'show' should be successful
+rspec ./spec/controllers/users_controller_spec.rb:14 # UsersController Get 'show' should find the right user
+rspec ./spec/controllers/users_controller_spec.rb:18 # UsersController Get 'show' should have the right title
+rspec ./spec/controllers/users_controller_spec.rb:22 # UsersController Get 'show' should include the user's name
+rspec ./spec/controllers/users_controller_spec.rb:26 # UsersController Get 'show' should have profile image
+rspec ./spec/controllers/users_controller_spec.rb:33 # UsersController GET 'new' should be successful
+rspec ./spec/controllers/users_controller_spec.rb:38 # UsersController GET 'new' should have the right title
+rspec ./spec/controllers/users_controller_spec.rb:64 # UsersController POST 'create' failure should not create a user
+rspec ./spec/controllers/users_controller_spec.rb:69 # UsersController POST 'create' failure should have the right title
+rspec ./spec/controllers/users_controller_spec.rb:73 # UsersController POST 'create' failure should render the 'new' page
+rspec ./spec/controllers/users_controller_spec.rb:94 # UsersController POST 'create' failure success should sign the user in
+rspec ./spec/requests/layout_links_spec.rb:4 # LayoutLinks should have a home page at '/'
+rspec ./spec/requests/layout_links_spec.rb:8 # LayoutLinks should have a contact page at '/contact'
+rspec ./spec/requests/layout_links_spec.rb:12 # LayoutLinks should have a about page at '/about'
+rspec ./spec/requests/layout_links_spec.rb:16 # LayoutLinks should have a Help page at '/help'
+rspec ./spec/requests/layout_links_spec.rb:20 # LayoutLinks should have a signup page at '/signup'
+rspec ./spec/requests/layout_links_spec.rb:25 # LayoutLinks when not signed in should have a signin link
+rspec ./spec/requests/layout_links_spec.rb:40 # LayoutLinks when signed in should have a signout link
+rspec ./spec/requests/layout_links_spec.rb:44 # LayoutLinks when signed in should have a profile link
+rspec ./spec/requests/users_spec.rb:7 # Users signup failure should not make a new user
+rspec ./spec/requests/users_spec.rb:22 # Users signup success should create a user

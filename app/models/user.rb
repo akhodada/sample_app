@@ -23,7 +23,7 @@ class User < ActiveRecord::Base
 		    :uniqueness => { :case_sensitive => false }
   validates :password, :presence => true,
 		       :confirmation => true,
-		       :length => { :within => 4..40 }
+		       :length => { :within => 6..40 }
   
   before_save :encrypt_password
 
@@ -35,7 +35,10 @@ class User < ActiveRecord::Base
     return nil if user.nil?
     return user if user.has_password?(submitted_password)
   end
-
+  def self.authenticate_with_salt(id, cookie_salt)
+    user = find_by_id(id)
+    (user && user.salt == cookie_salt) ? user : nil
+  end
   private
     def encrypt_password
       self.salt = make_salt if new_record?

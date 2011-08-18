@@ -1,0 +1,12 @@
+<% if @user.errors.any? %>
+ <div id="error_explanation">
+  <h2><%= pluralize(@user.errors.count, "error") %>
+	: </h2>
+   <p>fix the following errors to sign up successfully:</p>
+   <ul>
+	<% @user.errors.full_messages.each do |msg| %>
+	<li><%= msg %></li>
+        <% end %>
+   </ul>
+ </div>
+<% end %>
