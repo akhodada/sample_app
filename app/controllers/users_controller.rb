@@ -23,16 +23,17 @@ class UsersController < ApplicationController
 
 
 
-  def create
-    @user = User.new(params[:user])
-    if @user.save
-      flash[:success] = "Registration Succeeded!"
-      redirect_to user_path(@user)    
+  def update
+    @user = User.find(params[:id])
+    if @user.update_attributes(params[:user])
+      flash[:success] = "Profile has been updated"
+      redirect_to @user
     else
-      @title = "Sign up"
-      render 'new'
+      @title = "edit"
+      render 'edit' 
     end
   end
+
 
 
 end
