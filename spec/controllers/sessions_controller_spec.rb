@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe SessionsController do
   render_views
+
   describe "GET 'new'" do
     it "should be successful" do
       get :new
@@ -20,6 +21,7 @@ describe SessionsController do
         @user = Factory(:user)
         @attr= {:email => @user.email, :passowrd => @user.password }
       end
+
       it "should sign the user in" do
         post :create, :session => @attr
         controller.current_user.should == @user
@@ -47,7 +49,8 @@ describe SessionsController do
 	flash.now[:error].should =~ /invalid/i
       end
     end
-  end   
+  end
+   
   describe "DELETE 'destroy'" do
     it "should sign a user out" do
       test_sign_in(Factory(:user))

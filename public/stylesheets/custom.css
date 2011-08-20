@@ -73,7 +73,7 @@ nav ul li
 }
 nav ul li a
 {
-	padding: 0 5px;
+	padding: 0 5px;	
 	font-weight: bold;
 }
 nav ul li a:visited
@@ -83,6 +83,7 @@ nav ul li a:visited
 nav ul li a:hover
 {
 	text-decoration: undrline;
+        color: #fcc;
 }
 
 a.signup_button
