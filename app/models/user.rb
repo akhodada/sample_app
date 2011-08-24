@@ -3,6 +3,7 @@ class User < ActiveRecord::Base
   attr_accessor :password
   attr_accessible :name, :email, :password, :password_confirmation
   
+  has_many :microposts, :dependent => :destroy
 
   email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 
@@ -15,6 +16,9 @@ class User < ActiveRecord::Base
 		       :confirmation => true,
 		       :length => { :within => 6..40 }
   
+  def feed
+    Micropost.where("user_id = ?", id)
+  end  
   
 
   def has_password?(submitted_password)

@@ -1,4 +1,6 @@
-
+<% if signed_in? %>
+ <%= render 'shared/logged_in_home' %>
+<% else %>
     <h1>Sample App</h1>
     <p>
       this is the home page 
@@ -6,3 +8,4 @@
       sample application.
     </p>
   <%= link_to "SIGN UP NOW!!", signup_path, :class=> "signup_button round"%>
+<% end %>
